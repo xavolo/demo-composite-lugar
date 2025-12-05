@@ -1,0 +1,14 @@
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\bin\Debug\net6.0\DemoCompositeLugar.exe
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\bin\Debug\net6.0\DemoCompositeLugar.deps.json
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\bin\Debug\net6.0\DemoCompositeLugar.runtimeconfig.json
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\bin\Debug\net6.0\DemoCompositeLugar.dll
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\bin\Debug\net6.0\DemoCompositeLugar.pdb
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\obj\Debug\net6.0\DemoCompositeLugar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\obj\Debug\net6.0\DemoCompositeLugar.AssemblyInfoInputs.cache
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\obj\Debug\net6.0\DemoCompositeLugar.AssemblyInfo.cs
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\obj\Debug\net6.0\DemoCompositeLugar.csproj.CoreCompileInputs.cache
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\obj\Debug\net6.0\DemoCompositeLugar.dll
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\obj\Debug\net6.0\refint\DemoCompositeLugar.dll
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\obj\Debug\net6.0\DemoCompositeLugar.pdb
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\obj\Debug\net6.0\DemoCompositeLugar.genruntimeconfig.cache
+D:\Usuarios\xavolo\source\saludsa-workspace\demo-composite-lugar\obj\Debug\net6.0\ref\DemoCompositeLugar.dll
