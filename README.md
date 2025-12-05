@@ -101,6 +101,61 @@ ILugar (abstracta)
 └── LugarHoja (no puede tener hijos)
 ```
 
+```mermaid
+classDiagram
+    %% Clase abstracta para el Lugar
+    class ILugar {
+        <<abstract>>
+        #String codigo
+        #String codigoPadre
+        #String nivel
+        #String nombre
+        #Decimal ventas
+        +ObtenerHijos()*List~ILugar~
+        +AgregarHijo(ILugar)*bool
+        +EliminarHijo(ILugar)*bool
+        +ObtenerPadre()*ILugar
+        +SumarizarVentas()*Decimal
+        +EstablecerPadre(ILugar)*void
+    }
+
+     %% Clase concreta para el contenedor
+    class LugarContenedor {
+        #String codigo
+        #String codigoPadre
+        #String nivel
+        #String nombre
+        +ObtenerHijos()*List~ILugar~
+        +AgregarHijo(ILugar)*bool
+        +EliminarHijo(ILugar)*bool
+        +ObtenerPadre()*ILugar
+        +SumarizarVentas(ILugar)*decimal
+        +EstablecerPadre(ILugar)*void
+        +CantidadHijos()*int
+    }
+
+    
+     %% Clase concreta para la hoja
+    class LugarHoja {
+        #String codigo
+        #String codigoPadre
+        #String nivel
+        #String nombre
+        +ObtenerPadre()* ILugar
+        +SumarizarVentas(ILugar)*decimal
+        +EstablecerPadre(ILugar)*void
+    }
+
+    
+    %% Relaciones de Implementación
+    ILugar <|.. LugarContenedor
+    ILugar <|.. LugarHoja
+
+    %% Relaciones de Composición/Agregación
+    LugarContenedor *--> ILugar : contiene
+```
+
+
 ## Requisitos
 
 - .NET 6.0 o superior
