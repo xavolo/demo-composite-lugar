@@ -101,6 +101,8 @@ ILugar (abstracta)
 └── LugarHoja (no puede tener hijos)
 ```
 
+A continuación, el modelo de clases de la parte medular del composite. La parte creacional se manejará con la clase AdministradorLugares.cs que no está en este diagrama.
+
 ```mermaid
 classDiagram
     %% Clase abstracta para el Lugar
@@ -172,7 +174,4 @@ El programa ejecutará una demostración completa mostrando:
 3. Sumarización de ventas
 4. Eliminación de elementos de la jerarquía
 
-## Autor
-
-Implementado según especificaciones del patrón Composite.
 
